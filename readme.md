@@ -7,6 +7,9 @@
 - **Sizamayeen Saiyadmiya Kadri**
 - **Brijkumar Patel**
 
+## Live URL
+Front End App URL:- https://app-dot-data-programming-395017.uc.r.appspot.com/dashboard
+Api URL:- https://data-programming-395017.uc.r.appspot.com/ping
 
 ## Description
 This repository contains two main folders: App and Api, each with its respective codebase for deploying a React web application and a Python Flask API using Google App Engine. The deployment configurations for both components are managed using `app.yaml` files in each folder, allowing for seamless deployment to the Google App Engine platform.
