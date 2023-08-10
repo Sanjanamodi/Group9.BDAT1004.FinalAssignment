@@ -47,4 +47,6 @@ npm install
 npm start
 ```
 
- 
+### Api Routes
+Postman Collection added in repository and below is the link of collection
+[Api Postman Collection](https://github.com/Sanjanamodi/Group9.BDAT1004.FinalAssignment/blob/main/FlaskApi%20Production.postman_collection.json)
