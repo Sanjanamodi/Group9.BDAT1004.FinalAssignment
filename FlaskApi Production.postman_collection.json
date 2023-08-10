@@ -1,0 +1,221 @@
+{
+	"info": {
+		"_postman_id": "2b45b0ce-be38-47ae-80d2-8952a7da9dd4",
+		"name": "FlaskApi Production",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Connection status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://data-programming-395017.uc.r.appspot.com/ping",
+					"protocol": "https",
+					"host": [
+						"data-programming-395017",
+						"uc",
+						"r",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"ping"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Users from Mongodb",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://data-programming-395017.uc.r.appspot.com/user/",
+					"protocol": "https",
+					"host": [
+						"data-programming-395017",
+						"uc",
+						"r",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"user",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://data-programming-395017.uc.r.appspot.com/movie/",
+					"protocol": "https",
+					"host": [
+						"data-programming-395017",
+						"uc",
+						"r",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"movie",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Map Graph",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://data-programming-395017.uc.r.appspot.com/movie/map_graph",
+					"protocol": "https",
+					"host": [
+						"data-programming-395017",
+						"uc",
+						"r",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"movie",
+						"map_graph"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Line Graph",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://data-programming-395017.uc.r.appspot.com/movie/line_graph",
+					"protocol": "https",
+					"host": [
+						"data-programming-395017",
+						"uc",
+						"r",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"movie",
+						"line_graph"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pie Graph",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://data-programming-395017.uc.r.appspot.com/movie/pie_graph",
+					"protocol": "https",
+					"host": [
+						"data-programming-395017",
+						"uc",
+						"r",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"movie",
+						"pie_graph"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Bar Graph",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://data-programming-395017.uc.r.appspot.com/movie/bar_graph",
+					"protocol": "https",
+					"host": [
+						"data-programming-395017",
+						"uc",
+						"r",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"movie",
+						"bar_graph"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Column Graph",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://data-programming-395017.uc.r.appspot.com/movie/column_graph",
+					"protocol": "https",
+					"host": [
+						"data-programming-395017",
+						"uc",
+						"r",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"movie",
+						"column_graph"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cron Post",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-api-key",
+						"value": "12345",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "https://data-programming-395017.uc.r.appspot.com/movie/cron",
+					"protocol": "https",
+					"host": [
+						"data-programming-395017",
+						"uc",
+						"r",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"movie",
+						"cron"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
